@@ -1,17 +1,17 @@
- Getting Started;
+ # Getting Started
  Run with a computer that uses (Linux,Mac OS or Windows 8+0)
  To get Access;
  Open terminal and clone the repo i.e git@github.com:Kiptoo16/wk1-Code-Challenge.git
  thereafter Open it on VS Code by running Code .
  
- STUDENT GRADE CALCULATION:
+# STUDENT GRADE CALCULATION:
  
- DESCRIPTION
+ # DESCRIPTION
 
 The studentsGradeCalc function is a simple JavaScript program that calculates a student's grade based on their inputted score. It utilizes basic conditional statements to determine the grade and handles input validation for scores within the range of 0 to 100.
 
 
-TO USE THE STUDENTSGRADECALC:
+# TO USE THE STUDENTSGRADECALC:
 
 Input: When prompted, enter a numeric score between 0 and 100.
 Output: The function will output the corresponding grade based on the score entered.
@@ -22,19 +22,14 @@ node studentsGradeCalc.js
    studentsGrade A
 In this example, the score entered was 85, which corresponds to a grade of 'A'.
 
-ERROR HANDLING
+# ERROR HANDLING
 If the input score is not a valid number or falls outside the range of 0 to 100, the function will display an error message indicating the correct range and type of input required.
 
+# SPEED CALCULATION
+# Description                               
+The tellSpeed function is a JS program designed to determine demerit points based on the speed input compared to a speed limit. It calculates demerit points and provides feedback based on the number of demerit points accrued.
 
-NOTES
-Ensure you have Node.js installed to run the function in a terminal or command prompt.
-The function uses prompt-sync module for synchronous user input. Make sure to install it using npm install prompt-sync before running the function.
-
-                               [SPEED CALCULATION]
-[DESCRIPTION]                               
-The tellSpeed function is a JavaScript program designed to determine demerit points based on the speed input compared to a speed limit. It calculates demerit points and provides feedback based on the number of demerit points accrued.
-
-[USAGE]
+# USAGE
 To use the tellSpeed function:
 
 Input:
@@ -54,12 +49,9 @@ The function assumes valid numeric input for speed.
 Handles cases where the speed is within or exceeds the speed limit.
 Provides appropriate feedback including license suspension warning if demerit points exceed 12.
 
-{Notes}
-Ensure Node.js is installed to run the function in a terminal or command prompt.
-The function uses prompt-sync module for synchronous user input. Install it using npm install prompt-sync if not already installed.
-Adjust constants (speedLimit, kmPerDemeritPoint, pointsPerKmAboveLimit) as per specific speed regulations or requirements.
 
-                          [NET SALARY CALCULATION]
+
+# NET SALARY CALCULATION
 [DESCRIPTION]
 The netSalaryCalc function is a JavaScript program designed to calculate the net salary of an employee based on their basic salary and benefits. It incorporates various deductions such as PAYE (Pay As You Earn tax), Housing Levy, NHIF (National Hospital Insurance Fund) deductions, and NSSF (National Social Security Fund) contributions.
  
@@ -80,10 +72,6 @@ NSSF Deduction
 Gross Salary (basic salary + benefits)
 Net Salary (gross salary - all deductions)
 
-Notes:
-Ensure Node.js is installed to run the function in a terminal or command prompt.
-The function uses prompt-sync module for synchronous user input. Install it using npm install prompt-sync if not already installed.
-Adjust tax brackets (paye), NHIF rates (nhif), NSSF calculations (nssf), and other constants as per current regulations or specific requirements.
 
-AUTHORED BY: Kevin Kiptoo 
-@2024
+# AUTHORED BY: Kevin Kiptoo 
+# @2024
